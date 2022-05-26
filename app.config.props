@@ -1,0 +1,27 @@
+[DATABASE]
+# Local Config
+database.host=localhost
+database.user=root
+database.password=Stoneage&8
+database.schema=option_chain
+# Server Config
+<!-- database.host=127.0.0.1 -->
+<!-- database.user=amadmin -->
+<!-- database.password=amAdmin$2021.08 -->
+<!-- database.schema=optionbees -->
+[PATH]
+# Local Config
+path.contract_master=C:/Users/STONEAGE/PycharmProjects/Option_Chain/fileupload/contract_master/
+path.bhav_copy_zip=C:/Users/STONEAGE/PycharmProjects/Option_Chain/fileupload/bhav_copy/bhav_copy_zip/
+path.bhav_copy_csv=C:/Users/STONEAGE/PycharmProjects/Option_Chain/fileupload/bhav_copy/bhav_copy_csv
+# Server Config
+<!-- path.contract_master=static/fileupload/contract_master/ -->
+<!-- path.bhav_copy_zip=static/fileupload/bhav_copy/bhav_copy_zip/ -->
+<!-- path.bhav_copy_csv=static/fileupload/bhav_copy/bhav_copy_csv -->
+[GDFL]
+gdfl.base_url = http://nimblerest.lisuns.com:4531/getexchangesnapshot/?
+gdfl.params_accessKey=9ca07521-938f-425c-abda-8edda85d1f22
+gdfl.params_exchange=NFO
+gdfl.params_periodicity=Minute
+gdfl.params_period=1
+

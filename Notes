@@ -1,0 +1,14 @@
+up_contract_and_bhav_file.py --> Latest contract master upload file
+> Bug ['Sat','Sun'] day date's had issue on file download
+-> Fixed the ['Sat','Sun'] day date issues it will take automatically last weekday
+-> Added NSE Holiday calendar utilities. It check Exchange holiday or not
+
+oc_minute_sched.py --> Latest gdfl scheduler py script
+> Bug which start in completion time of previous records second
+-> Fixed scheduler will run on every minute start
+
+
+
+
+
+
